@@ -47,7 +47,7 @@
             "bgVideoRadio": false,
             "contentAlign": "center",
             "overlay": true,
-            "overlayOpacity": "0.3",
+            "overlayOpacity": "0.2",
             "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
@@ -332,7 +332,7 @@
             "overlayColor": "#222",
             "showTitle": true
           },
-          "title": "BERLANGGANAN <i>NEWSLETTER</i> KAMI",
+          "title": "BERLANGGANAN NEWSLETTER KAMI",
           "form": {
             "action": "sbsuryanto@yahoo.com",
             "alerts": {
