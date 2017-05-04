@@ -200,6 +200,9 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": 3,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -208,10 +211,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "count": 3,
-            "showName": true,
-            "showBio": true
+            "showTitle": true
           },
           "header": "APA KATA MEREKA TENTANG KAMI"
         },
@@ -318,6 +318,11 @@
             "Theme"
           ],
           "_name": "form2",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "form2-i",
           "_params": {
             "paddingTop": 3,
@@ -345,12 +350,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">BERLANGGANAN</a>",
-          "_styles": {
-            ".mbr-header__text": {
-              "text-align": "center"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">BERLANGGANAN</a>"
         },
         {
           "_styles": {
@@ -677,6 +677,11 @@
             "Theme"
           ],
           "_name": "image1",
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "image1-11",
           "_params": {
             "outside": false,
@@ -695,12 +700,7 @@
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "Maaf... Halaman ini masih dalam perbaikan.",
-          "_styles": {
-            "SMALL": {
-              "text-align": "center"
-            }
-          }
+          "text": "Maaf... Halaman ini masih dalam perbaikan."
         }
       ]
     },
