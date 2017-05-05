@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "STTKAO",
+    "name": "STTKAO 1.0",
     "currentPage": "index.html",
     "theme": {
       "name": "default",
@@ -8,12 +8,13 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 43,
+    "uniqCompNum": 45,
     "versionPublish": "3.12.1",
-    "favicon": "@PROJECT_PATH@/assets/images/logostt-127x128-128x129.png",
+    "favicon": "file:///C:/Users/Esbe/Downloads/STT",
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -551,7 +552,9 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Lato', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -568,9 +571,13 @@
           "_params": {
             "bgColor": "#333333",
             "fontSize": 1,
-            "fontName": {},
+            "fontName": {
+              "name": "Lato",
+              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "css": "'Lato', sans-serif"
+            },
             "fontColor": "#ffffff",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -590,6 +597,56 @@
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">STT-KAO</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"underconstructionpage.html\">TENTANG</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">PENERIMAAN</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Host anywhere</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whatsnew.html\">KAMPUS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whatsnew.html\">MAHASISWA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whatsnew.html\">DEPARTEMEN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"underconstructionpage.html\">DONASI</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"whatsnew.html\">REGISTRASI</a></li>"
+        },
+        {
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-17",
+          "_params": {
+            "postsNumber": 5,
+            "bgImage": "/addons/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f",
+            "socialFacebook": true,
+            "socialGoogle": false,
+            "shortName": "",
+            "socialDisqus": false
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"/addons/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"/addons/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"/addons/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>"
+        },
+        {
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-18",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "youtube": "UCt_tncVAetpK5JeM8L-8jyw",
+            "facebook": "mobirise",
+            "twitter": "mobirise",
+            "google": "+mobirise",
+            "postToLoad": 3,
+            "bgImage": "/addons/social-feed/feed/assets/comments_bg.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f"
+          },
+          "loadsvg": "/addons/social-feed/feed/assets/loading.svg"
         }
       ]
     },
@@ -632,7 +689,9 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Lato', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -649,9 +708,13 @@
           "_params": {
             "bgColor": "#333333",
             "fontSize": 1,
-            "fontName": {},
+            "fontName": {
+              "name": "Lato",
+              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "css": "'Lato', sans-serif"
+            },
             "fontColor": "#ffffff",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -760,9 +823,13 @@
           "_params": {
             "bgColor": "#333333",
             "fontSize": 1,
-            "fontName": {},
+            "fontName": {
+              "name": "Lato",
+              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "css": "'Lato', sans-serif"
+            },
             "fontColor": "#ffffff",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
